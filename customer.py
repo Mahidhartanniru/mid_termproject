@@ -30,4 +30,11 @@ def save_customers(customers, output_filename='customers.json'):
     except Exception as e:
         print("An unexpected error occurred while saving customers:", e)
 
+def main():
+    args = parse_arguments()
+    customer_data = extract_customer_information(args.filename)
+    save_customers(customer_data)
+if __name__ == "__main__":
+    main()
+
 
