@@ -1,11 +1,11 @@
 # mid_termproject
 
-	#ReadMe file:
-## H2Overview:
+	# ReadMe file:
+## Overview:
 We possess a JSON file along with two Python scripts, both of which take the JSON file as input. One script outputs customer details such as names and phone numbers, while the other provides information about menu items, including their prices and the total number of orders received.
 Customers.json file is the output of customer.py file and items.json file is output of items.py file.
 
-##Required Components:
+## Required Components:
 1.Check Python Installation: 	
           First, you need to verify whether Python is already installed on your PC. You can do this by opening a command prompt or terminal and typing “python –              version” or “python3 –version”. If Python is installed, it will display the version number. If not, you'll need to download and install Python 3.3 from             the official Python website.
 2.Install GitHub: 
@@ -24,7 +24,7 @@ Customers.json file is the output of customer.py file and items.json file is out
 Ensure that any libraries you use are installed on your system using tools like “pip”, the Python package manager. You can install libraries using the command “pip install <library_name>” in your command prompt or terminal.By following these steps, you can set up your development environment and collaborate on a Python project using GitHub.
 
 
-##Implementation:
+## Implementation:
 1. Customer.py Implementation:
                       1)The “customers.py” file takes “example_orders.json” as input. In the main method, it calls the “read_object()” function, which opens and                           returns the JSON file. Then, it invokes “extract_customer_data()” to gather the required customer data, storing it in the variable                                  “customer_data()”. Subsequently, it creates a “customers.json” file and writes the customer names and phone numbers into it.
 2. Items.py Implementation:
